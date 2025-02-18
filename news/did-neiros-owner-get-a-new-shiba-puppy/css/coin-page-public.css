@@ -1,0 +1,136 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .coin-page-banner {
+    border: 1px solid #e0e0e0;
+    padding: 18px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, .05);
+    font-family: 'Oswald';
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.coin-page-banner-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 26px;
+    flex-flow: row wrap;
+}
+
+.coin-page-banner-header-name {
+    margin-left: 18px;
+    font-size: 3em;
+    line-height: 1.35;
+}
+
+.coin-page-banner-header-name-block {
+    display: flex;
+}
+
+.coin-page-banner-header-price {
+    display: none;
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 1.35;
+}
+
+.coin-page-banner-logo {
+    height: 60px;
+    width: 60px;
+}
+
+.coin-page-banner-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.coin-page-banner-info-market {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+}
+
+.coin-page-banner-info-market-block {
+    display: none;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.coin-page-banner-info-market-header {
+    font-size: 0.8em;
+}
+
+.coin-page-banner-info-changes {
+    display: none;
+    flex-direction: row;
+    flex-flow: row wrap;
+    margin-top: 22px;
+}
+
+.coin-page-banner-info-changes>div {
+    margin-left: 30px;
+}
+
+@media (max-width: 830px) {
+    .coin-page-banner-info-changes>._1h {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 337px) {
+    .coin-page-banner-info-changes>._7d {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 244px) {
+    .coin-page-banner-info-changes>._24h {
+        margin-left: 0;
+    }
+    .coin-page-banner-header-name, .coin-page-banner-header-price {
+        font-size: 1.5em;
+    }
+}
+
+
+.coin-page-banner-info-changes>div.plus, .coin-page-banner-info-changes>div.plus span {
+    color: green;
+}
+
+.coin-page-banner-info-changes>div.minus, .coin-page-banner-info-changes>div.minus span {
+    color: red;
+}
+
+
+.coin-page-chart .tradingview-widget-container #tradingview_350a6 {
+    height: 400px;
+}
+
+.coin-page-technical {
+    height: 400px;
+}
+
+.coin-page-price-info {
+    font-size: 1.5em;
+    line-height: 1;
+    margin-top: 20px;
+    margin-bottom: 0.9rem;
+}
+
+.coin-page-price-info .coin-page-price-info-price-block {
+    display: none;
+}
+
+.coin-page-price-info .coin-page-price-info-volume-block {
+    display: none;
+}
+
+.coin-page-price-info .coin-page-price-info-cap-block {
+    display: none;
+}

@@ -1,0 +1,32 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.wp-block-custom-wallet-block .wallet-logo {
+    max-width: 100px
+}
+
+.wp-block-custom-wallet-block .wallet-name {
+    font-size: 24px;
+    font-weight: 700
+}
+
+.wp-block-custom-wallet-block .wallet-bonus, .wp-block-custom-wallet-block .wallet-code-license, .wp-block-custom-wallet-block .wallet-description, .wp-block-custom-wallet-block .wallet-privacy-security-date, .wp-block-custom-wallet-block .wallet-rating, .wp-block-custom-wallet-block .wallet-release-date, .wp-block-custom-wallet-block .wallet-supported-coins {
+    font-size: 14px
+}
+
+.wp-block-custom-wallet-block h3 {
+    font-size: 18px
+}
+
+.wp-block-custom-wallet-block ul {
+    list-style: disc;
+    padding-left: 20px
+}
+
+.wp-block-custom-wallet-block .learn-more {
+    margin-top: 20px
+}

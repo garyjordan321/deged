@@ -1,0 +1,38 @@
+.sidebar-add-menu__list {
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-add-menu__item + .sidebar-add-menu__item {
+    margin-top: 12px;
+}
+.sidebar-add-item__icon {
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+.sidebar-add-item__icon img,
+.sidebar-add-item__icon svg{
+    max-width: 100%;
+}
+.sidebar-add-item {
+    display: flex;
+    align-items: center;
+    transition: opacity .3s;
+}
+.sidebar-add-item__name {
+    font-size: 18px;
+    font-family: Oswald, Helvetica, Arial, sans-serif;
+    color:#000000;
+}
+.sidebar-add-item .dashicons,
+.sidebar-add-item .dashicons-before::before {
+    color: #000;
+}
+.sidebar-add-item:hover{
+    opacity: .7;
+}
+
